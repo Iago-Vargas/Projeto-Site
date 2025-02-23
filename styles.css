@@ -1,0 +1,82 @@
+body {
+    
+    font-family: 'Pacifico', cursive;
+    font-style: normal;
+    background-color: #A9D7BB;
+    display: flex;
+    flex-direction: column; 
+    justify-content: center; 
+    align-items: center; 
+    height: 100vh;
+    margin: 0;
+}
+
+.titulo {
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding: 20px;
+    color: #FFFFFF;
+}
+
+.container {
+    text-align: center;
+    background-color: #A9D7BB;
+    padding: 20px;
+    border-radius: 40px;
+    width: 100%;
+    max-width: 500px;
+    margin-top: 0px; 
+}
+
+.profile-pic {
+    width: 130px;
+    height: auto;
+    border-radius: 60%;
+    margin-bottom: 0px;
+}
+
+h1 {
+    font-size: 24px;
+    margin: 10px 0;
+   
+}
+
+p {
+    font-size: 16px;
+    color: #FFFFFF;
+    margin: 10px 0;
+}
+
+.links {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+.link {
+    margin: 4px;
+    text-decoration: none;
+    color: #DB7861;
+    background-color: #DAD5AD;
+    padding: 20px 30px;
+    border: 2px, solid, #000000;
+    border-radius: 60px;
+    transition: transform 0.2s ease, background-color 0.3s ease;
+    font-weight: bold;
+    text-align: center;
+    box-shadow: 5px 8px 2px #000000; /* Sombra preta deslocada */
+    display: inline-block;
+}
+
+.link:hover {
+    transform: translateY(-5px); /* Faz o botão subir 5px */
+    background-color: #C5BE98; /* Altera a cor ao passar o mouse */
+}
+
+.link:active {
+    transform: translateY(2px); /* Quando clica, ele desce um pouco */
+}
+
